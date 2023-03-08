@@ -122,4 +122,12 @@
       font-size: 1.4rem;
       margin-bottom: 1.5rem;
     }
+    .herrand-img{
+        /* margin-top: -25rem; */
+        height: 200px;
+        padding-top: 2rem;
+        margin: 0 auto;
+        
+      
+      }
   }

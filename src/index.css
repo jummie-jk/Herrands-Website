@@ -9,6 +9,7 @@ html {
 body {
   font-family: "Lato", sans-serif;
   box-sizing: border-box;
+  overflow: hidden;
 }
 
 /* Background image and Animation section */
@@ -117,4 +118,10 @@ body {
 .herrands--container{
   height: 35vh;
   background-image: linear-gradient(to right bottom, #26344f,#fff);
+}
+.herrand-img{
+  margin-top: -9rem;
+  height: 340px;
+  margin-left: 10rem;
+
 }
