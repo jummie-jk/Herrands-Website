@@ -1,13 +1,120 @@
-body {
+*{
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+  font-size: 62.5%;
+} 
+body {
+  font-family: "Lato", sans-serif;
+  box-sizing: border-box;
+}
+
+/* Background image and Animation section */
+.background--img{
+      height: 65vh;  
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      animation-name: ImageAnimation;
+      animation-duration: 20s;
+      animation-iteration-count: infinite;
+}
+@keyframes ImageAnimation{
+  0%{
+    background-image: url(images/img1.jpeg);
+  }
+  25%{
+    background-image: url(images/img2.jpeg);
+  }
+  50%{
+    background-image: url(images/img1.jpeg);
+  }
+  75%{
+    background-image: url(images/img2.jpeg);
+  }
+  100%{
+    background-image: url(images/img1.jpeg);
+  }
+}
+
+
+/* Branding Section */
+.headings{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.branding{
+  margin-top: 3rem;
+  margin-left: 2.5rem;
+ 
+}
+.herrand--brandname {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 2rem;
+ 
+}
+.herrand--text{
+  color: #fff;
+  text-transform: lowercase;
+  font-size: .7rem;
+  padding-left: 5.1rem;
+  padding-bottom: -3rem;
+
+}
+
+/* Greeting Section */
+.herrand--greeting{
+ color: #fff;
+ font-size: 2rem;
+ margin-top: 3rem;
+ margin-right: 2.5rem;
+}
+
+/* Main Text Section */
+.main--text{
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 8rem;
+  padding: 3rem;
+}
+.main--text h1{
+  font-size: 4rem;
+  margin-bottom: 2rem;
+}
+.main--text p{
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+.main--text h3{
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  animation: moveInButtom 1s ease-out .75s;
+  animation-fill-mode: backwards;
+  /* animation-name: moveInButtom;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  animation-delay: 2s; */
+}
+/* Animation */
+@keyframes moveInButtom {
+  0% {
+    opacity: 0;
+    transform: translateY(3rem); }
+  100% {
+    opacity: 1;
+    transform: translate(0); } }
+
+
+/* Contact Us Section */
+.herrands--container{
+  height: 35vh;
+  background-image: linear-gradient(to right bottom, #26344f,#fff);
 }
