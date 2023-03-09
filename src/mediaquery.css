@@ -40,7 +40,7 @@
   @media (min-width: 451px) and (max-width: 700px) {
   
     .branding{
-      margin-top: 1.5rem;
+      margin-top: 2.5rem;
       margin-left: 1.5rem;
      
     }
@@ -55,24 +55,24 @@
     }
     .herrand--greeting{
       font-size: 1rem;
-      margin-top: 1.5rem;
+      margin-top: 2rem;
       margin-right: 1.5rem;
      }
      .main--text{
-      margin-top: 4rem;
+      margin-top: 5rem;
       padding: 2rem;
     }
     .main--text h1{
       font-size: 2.5rem;
-      margin-bottom: 1.5rem;
+      margin-bottom: 2rem;
     }
     .main--text p{
       font-size: 1rem;
-      margin-bottom: 1.5rem;
+      margin-bottom: 2rem;
     }
     .main--text h3{
       font-size: 1.2rem;
-      margin-bottom: 1.5rem;
+      margin-bottom: 2rem;
     }
   }
  
@@ -86,12 +86,12 @@
     }
   
     .branding{
-      margin-top: 1.5rem;
+      padding-top: 2.5rem;
       margin-left: 0;
      
     }
     .herrand--brandname {
-      font-size: 1.5rem;
+      font-size: 1.2rem;
      
     }
   
@@ -102,25 +102,25 @@
     
     }
     .herrand--greeting{
-      font-size: 1.5rem;
+      font-size: 1.3rem;
       margin-top: 3rem;
       margin-right: 0;
      }
      .main--text{
-      margin-top: 3rem;
+      margin-top: 3.5rem;
       padding: 2.5rem;
     }
     .main--text h1{
-      font-size: 2rem;
+      font-size: 1.8rem;
       margin-bottom: 1.5rem;
     }
     .main--text p{
-      font-size: 1rem;
-      margin-bottom: 1.5rem;
+      font-size: 1.1rem;
+      margin-bottom: 2rem;
     }
     .main--text h3{
       font-size: 1.4rem;
-      margin-bottom: 1.5rem;
+      margin-bottom: 2rem;
     }
     .herrand-img{
         /* margin-top: -25rem; */

@@ -12,7 +12,7 @@ function Headers(){
     else if(currentTime < 18){
         greeting = "Good Afternoon"
     }
-    else{greeting= "Good Night"}
+    else{greeting= "Good Evening"}
 
   
 
