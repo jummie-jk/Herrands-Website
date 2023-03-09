@@ -7,14 +7,14 @@ html {
   font-size: 62.5%;
 } 
 body {
-  font-family: "Lato", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   box-sizing: border-box;
   overflow: hidden;
 }
 
 /* Background image and Animation section */
 .background--img{
-      height: 65vh;  
+      height: 60vh;  
       width: 100%;
       background-size: cover;
       background-position: center;
@@ -116,7 +116,7 @@ body {
 
 /* Contact Us Section */
 .herrands--container{
-  height: 35vh;
+  height: 40vh;
   background-image: linear-gradient(to right bottom, #26344f,#fff);
 }
 .herrand-img{
