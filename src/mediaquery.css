@@ -1,176 +1,228 @@
 /* Media Query */
-@media (min-width: 701px) and (max-width: 950px) {
-
-    .branding{
-      margin-top: 3rem;
-      margin-left: 2.5rem;
-     
-    }
-    .herrand--brandname {
-      font-size: 1.5rem;
-     
-    }
-    .herrand--text{
-      font-size: .6rem;
-      padding-left: 3.4rem;
-    
-    }
-    .herrand--greeting{
-      font-size: 1.5rem;
-      margin-top: 3rem;
-      margin-right: 2.5rem;
-     }
-     .main--text{
-      margin-top: 8rem;
-      padding: 3rem;
-    }
-    .main--text h1{
-      font-size: 3rem;
-      margin-bottom: 3rem;
-    }
-    .main--text p{
-      font-size: 1.5rem;
-      margin-bottom: 3rem;
-    }
-    .main--text h3{
-      font-size: 1.7rem;
-      margin-bottom: 1.5rem;
-    }
-  }
-  @media (min-width: 451px) and (max-width: 700px) {
-  
-    .branding{
-      margin-top: 2.5rem;
-      margin-left: 1.5rem;
-     
-    }
-    .herrand--brandname {
-      font-size: 1rem;
-     
-    }
-    .herrand--text{
-      font-size: .6rem;
-      padding-left: .6rem;
-    
-    }
-    .herrand--greeting{
-      font-size: 1rem;
-      margin-top: 2rem;
-      margin-right: 1.5rem;
-     }
-     .main--text{
-      margin-top: 5.5rem;
-      padding: 2rem;
-    }
-    .main--text h1{
-      font-size: 2.5rem;
-      margin-bottom: 2.5rem;
-      font-weight: 600;
-    }
-    .main--text p{
-      font-size: 1.4rem;
-      padding-bottom: 1.5rem;
-      font-weight: 300;
-    }
-    .main--text h3{
-      font-size: 2rem;
-      margin-bottom: 2rem;
-      font-weight: 00;
-    }
-  }
- 
-  @media (max-width: 451px) {
-    .headings{
-      display: flex;
-      flex-direction: column;
-      flex-wrap: wrap;
-      align-items: center;
-      justify-content: center;
-    }
-  
-    .branding{
-      padding-top: 2rem;
-      margin-left: 0;
-     
-    }
-    .herrand--brandname {
-      font-size: 1.2rem;
-     
-    }
-  
-    .herrand--text{
-      font-size: .6rem;
-      padding-left: 1.5rem;
-      padding-bottom: -3rem;
-    
-    }
-    .herrand--greeting{
-      font-size: 1.3rem;
-      margin-top: 3rem;
-      margin-right: 0;
-     }
-     .main--text{
-      margin-top: 1rem;
-      padding: 2rem;
-    }
-    .main--text h1{
-      font-size: 2.2rem;
-      margin-bottom: 2rem;
-      font-weight: 600;
-    }
-    .main--text p{
-      font-size: 1.2rem;
-      margin-bottom: 2rem;
-      font-weight: 300;
-    }
-    .main--text h3{
-      font-size: 1.5rem;
-      padding-bottom: 2rem;
-      font-weight: 500;
-    }
-    .herrand-img{
-        /* margin-top: -25rem; */
-        height: 200px;
-        padding-top: 2rem;
-        margin: 0 auto;
-        
-      
-      }
-  }
-  @media (max-width: 371px) {
-  
-      .branding{
-        padding-top: 1.5rem;
-      }
-      .herrand--brandname {
-        font-size: 1rem;
-       
-      }
-      .herrand--text{
-        font-size: .5rem;
-        padding-left: 1.2rem;
-        padding-bottom: -3rem;
-      
-      }
-      .herrand--greeting{
-        font-size: 1.1rem;
-    
-       }
-       .main--text{
-        margin-top: 1.3rem;
+@media (max-width:1200px) {
+    html {
+        font-size: 53%;
+      } 
+      .main--text{
+        margin-top: 5rem;
         padding: 2rem;
       }
       .main--text h1{
-        font-size: 1.8rem;
-        margin-bottom: 1rem;
+        font-size: 4rem;
+        margin-bottom: 9rem;
       }
       .main--text p{
-        font-size: 1rem;
-        margin-bottom: 1rem;
-   
+        font-size: 1.8rem;
+        margin-bottom: 7rem;
       }
       .main--text h3{
-        font-size: 1.2rem;
+        font-size: 2.5rem;
+        margin-bottom: 2rem;
+      }
+      .herrand-img{
+        margin-top: -15rem;
+        height: 46rem;
+        margin-left: 3rem;
+      }
+}
+@media (max-width:1050px) {
+    html {
+        font-size: 48%;
+      } 
+      .main--text{
+        margin-top: 1rem;
+        padding: 5rem;
+      }
+      .main--text h1{
+        font-size: 4.5rem;
+        margin-bottom: 7rem;
+      }
+
+      .herrand-img{
+        margin-top: -20rem;
+        height: 40rem;
+        margin-left: 3rem;
+      }
+      .contact-box{
+    
+        margin-top: -18rem;
+     
+      }
+}
+@media (max-width:900px) {
+    html {
+        font-size: 41%;
+      } 
+      .herrand-img{
+        margin-top: -15rem;
+        height: 45rem;
+        margin-left: 0;
+      }
+      .image-container{
+        text-align: center;
+        height: 30rem;
+      }
+      .contact-box{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column ;
+        align-items: center;
+        justify-items: center;
+        margin-top: -7rem;
+        margin-right: 0;
+      }
+      .btn--white {
+        margin-left: 45rem;
+       }
+      .herrands-form-text{
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+        font-size: 3.5rem;
        
       }
-  }
+      .herrands-contact-text{
+        display: flex;
+        font-size: 2.35rem;
+        
+      }
+      .herrands-contact-text p{
+        margin-left: 12rem;
+        margin-right: 11.5rem;
+      }
+
+
+
+}
+@media (max-width:600px) {
+    html {
+        font-size: 36%;
+      } 
+      .headings{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+      }
+    
+      .branding{
+        padding-top: 3rem;
+        margin-left: 0;
+       
+      }
+
+      .herrand-img{
+        margin-top: -15rem;
+        height: 35rem;
+        margin-left: 0;
+      
+      }
+      .main--text{
+        margin-top: 0rem;
+        padding: 1rem;
+      }
+      .contact-box{
+        margin-top: -5rem;
+        margin-right: 0;
+      }
+      .btn--white {
+        margin-left: 26rem;
+       }
+       .herrands-form-text{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        font-size: 2.55rem;
+       
+      }
+      .herrands-contact-text{
+        font-size: 1.4rem;
+        
+      }
+}
+@media (max-width:472px) {
+    html {
+        font-size: 30%;
+      } 
+      .branding{
+        padding-top: 7rem;
+        margin-left: 0;
+       
+      }
+      .main--text{
+        margin-top: 5rem;
+        padding: 3rem;
+      }
+      .main--text h1{
+        font-size: 4rem;
+        margin-bottom: 5.5rem;
+      }
+      .main--text p{
+        font-size: 1.9rem;
+        margin-bottom: 5.5rem;
+      }
+      .main--text h3{
+        font-size: 2.7rem;
+        margin-bottom: 2rem;
+      }
+      .herrand-img{
+        margin-top: -27rem;
+        height: 50rem;
+        margin-left: 0;
+      
+      }
+      .btn--white {
+        margin-left: 26rem;
+       }
+      .contact-box{
+        margin-top: 4rem;
+        margin-right: 0;
+      }
+}
+@media (max-width:395px) {
+    html {
+        font-size: 28%;
+      } 
+      .herrand-img{
+        margin-top: -25rem;
+        height: 46rem;
+      
+      }
+      .contact-box{
+        margin-top: 2rem;
+        margin-right: 0;
+      }
+      .btn--white {
+        margin-left: 25rem;
+       }
+
+}
+@media (max-width:335px) {
+    html {
+        font-size: 26%;
+      } 
+      .herrand-img{
+        margin-top: -20rem;
+        height: 46rem;
+      
+      }
+      .contact-box{
+        margin-top: 1rem;
+        margin-right: 0;
+        text-align: center;
+      }
+      .btn--white {
+        margin-left: 15rem;
+        margin-right: 0rem;
+       }
+       .herrands-contact-text p{
+        margin-left: 6rem;
+        margin-right: 6.5rem;
+      }
+      .herrands-form-text{
+        display: flex;
+        font-size: 2rem;
+        text-align: center;
+        
+      }
+
+}

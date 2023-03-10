@@ -1,7 +1,7 @@
 import React from "react";
 import Headers from "./Headers";
 import Contents from "./Contents";
-import ContactUs from "./ContactUs";
+import ContactUs from "./Contact";
 function App(){
   return <div>
     <div className="background--img">

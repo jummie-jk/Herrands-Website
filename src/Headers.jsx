@@ -1,5 +1,6 @@
 import React from "react";
 import Typed from "react-typed"
+import logo from "./images/logo.svg";
 function Headers(){
     const date = new Date();
     const currentTime = date.getHours();
@@ -19,9 +20,7 @@ function Headers(){
     return(
         <div className="headings">
             <div className="branding">
-                {/* <img alt="Herrands--logo"> </img> */}
-                <p className="herrand--brandname">Herrands</p>
-                <p className="herrand--text">. do more with less</p>
+                <img src={logo} alt="A delivery man" className="herrand-logo"></img>
             </div>
             <div className="herrand--greeting">
                 <p>

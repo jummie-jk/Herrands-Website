@@ -49,23 +49,13 @@ body {
   justify-content: space-between;
 }
 .branding{
-  margin-top: 3rem;
-  margin-left: 2.5rem;
+  margin-top: 2rem;
+  margin-left: 2rem;
  
 }
-.herrand--brandname {
-  color: #fff;
-  text-transform: uppercase;
-  font-size: 2rem;
- 
-}
-.herrand--text{
-  color: #fff;
-  text-transform: lowercase;
-  font-size: .7rem;
-  padding-left: 5.1rem;
-  padding-bottom: -3rem;
-
+.herrand-logo {
+  height: 4rem;
+  width: 13rem;
 }
 
 /* Greeting Section */
@@ -83,27 +73,25 @@ body {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  margin-top: 8rem;
+  margin-top: 4.5rem;
   padding: 3rem;
 }
 .main--text h1{
-  font-size: 4rem;
-  margin-bottom: 2rem;
+  font-size: 3.5rem;
+  margin-bottom: 2.2rem;
 }
 .main--text p{
-  font-size: 1.5rem;
-  margin-bottom: 2rem;
+  font-size: 1.3rem;
+  margin-bottom: 2.2rem;
 }
 .main--text h3{
   font-size: 2rem;
   margin-bottom: 2rem;
   animation: moveInButtom 1s ease-out .75s;
   animation-fill-mode: backwards;
-  /* animation-name: moveInButtom;
-  animation-duration: 1s;
-  animation-timing-function: ease-out;
-  animation-delay: 2s; */
 }
+
+
 /* Animation */
 @keyframes moveInButtom {
   0% {
@@ -118,10 +106,67 @@ body {
 .herrands--container{
   height: 40vh;
   background-image: linear-gradient(to right bottom, #26344f,#fff);
+  color: white;
 }
 .herrand-img{
-  margin-top: -9rem;
-  height: 340px;
-  margin-left: 10rem;
+  margin-top: -7rem;
+  height: 36rem;
+  margin-left: 8rem;
 
+}
+.contact-box{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: -25rem;
+  margin-right: 15rem;
+}
+
+/* buttons */
+.btn:link,
+.btn:visited {
+  text-decoration: none;
+  padding: 1.2rem 3.3rem;
+  display: inline-block;
+  border-radius: 1.5rem;
+  transition: all .2s;
+  position: relative;
+  font-size: 1.6rem;
+ }
+
+.btn:hover {
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2); 
+}
+.btn:active {
+  transform: translateY(-1rem);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+ }
+.btn--white {
+  background-color: #fff;
+  color: #26344f;
+  margin-left: 24rem;
+  border: 1px solid #26344f;
+ }
+.btn--blue {
+  background-color: #26344f;
+  color: #fff;
+  border: 1px solid #26344f;
+}
+
+.herrands-form-text{
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  font-weight: 500;
+  font-size: 2.4rem;
+  color: #26344f;
+}
+.herrands-contact-text{
+  color: #26344f;
+  display: flex;
+  font-weight: 500;
+  font-size: 1.3rem;
+  
+}
+.herrands-contact-text p{
+  margin-left: 22.5rem;
 }
