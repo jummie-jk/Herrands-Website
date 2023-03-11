@@ -78,7 +78,7 @@
       align-items: center;
     }
     .branding{
-      padding-top: 3rem;
+      padding-top: 2rem;
       margin-left: 0;
     }
     .herrand-logo {
@@ -109,12 +109,22 @@
     }
    }
    @media (max-width: 415px) {
+    .branding{
+      padding-top: 2rem;
+     
+    }
     .mobile-text{
       font-size: 2.1rem;
       margin-top: -6rem;
     }
     html {
       font-size: 36%;
+    }
+    .main--text h1{
+      margin-bottom: -2rem;
+    }
+    .main--text h3{
+      margin-top: -2rem;
     }
     .herrand-img{
       margin-left: 0rem;
@@ -127,8 +137,8 @@
       margin-right: 0rem;
      }
      .herrands-contact-text p{
-      margin-left: 6rem;
-      margin-right: 6.5rem;
+      margin-left: 7rem;
+      margin-right: 5.5rem;
     }
     .herrands-form-text{
       display: flex;
@@ -136,6 +146,8 @@
       text-align: center;
       
     }
+
+  
    }
    @media (max-width: 385px) {
     html {
