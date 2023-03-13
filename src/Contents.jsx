@@ -7,7 +7,8 @@ function Contents(){
     return(
        <div>
             <div className="main--text">
-                <h1>Run the herrands that steal your time away!</h1>
+                <h1 className='desktop-main-text'>Run the herrands that steal your time away!</h1>
+                <h1 className="mobile-main-text">Run the herrands that<br></br> steal your time away!</h1>
                 <p className="desktop-text">
                     We help business owners, entrepreneurs, managers, office workers, techies, and individuals
                     with<br></br> tight schedules save a minimum of  1 hour weekly to free up more time and get more done.

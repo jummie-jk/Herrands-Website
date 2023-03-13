@@ -2,7 +2,6 @@
   padding: 0;
   margin: 0;
 }
-
 html {
   font-size: 62.5%;
 } 
@@ -10,11 +9,12 @@ body {
   font-family: 'Montserrat', sans-serif;
   box-sizing: border-box;
   overflow: hidden;
+  color: #fff;
 }
 
 /* Background image and Animation section */
 .background--img{
-      height: 60vh;  
+      height: 65vh;  
       width: 100%;
       background-size: cover;
       background-position: center;
@@ -40,107 +40,97 @@ body {
     background-image: url(images/img1.jpeg);
   }
 }
-
-
-/* Branding Section */
-.headings{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-.branding{
-  margin-top: 2.5rem;
-  margin-left: 2.5rem;
- 
-}
-.herrand-logo {
-  height: 5rem;
-  width: 13rem;
-}
-
-/* Greeting Section */
-.herrand--greeting{
- color: #fff;
- font-size: 2rem;
- margin-top: 3rem;
- margin-right: 2.5rem;
-}
-
-/* Main Text Section */
-.main--text{
-  color: #fff;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  margin-top: 1.5rem;
-  padding: 3rem;
-}
-.mobile-text{
-  visibility: hidden;
-}
-
-.main--text h1{
-  font-size: 4.5rem;
-  margin-bottom: 2.5rem;
-}
-.desktop-text{
-  font-size: 1.6rem;
-  margin-bottom: -2rem;
-}
-.main--text h3{
-  font-size: 2.5rem;
-  margin-bottom: 2rem;
-  animation: moveInButtom 1s ease-out .75s;
-  animation-fill-mode: backwards;
-}
-
-
-/* Animation */
 @keyframes moveInButtom {
   0% {
     opacity: 0;
     transform: translateY(3rem); }
   100% {
     opacity: 1;
-    transform: translate(0); } }
+    transform: translate(0); }
+ }
 
+/* Logo and greting section */
+.headings{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2.5rem;
+}
+.herrand-logo, .herrand--greeting{
+  font-size: 2.3rem;
+}
+.herrand-logo {
+  height: 6rem;
+  width: 15rem;
+}
 
-/* Contact Us Section */
-.herrands--container{
-  height: 40vh;
-  background-image: linear-gradient(to right bottom, #26344f,#fff);
-  color: white;
+/* Main Text Section */
+.main--text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: -2rem;
+  font-weight: 600;
+}
+.desktop-text, .desktop-main-text{
+  visibility: visible;
+}
+.desktop-main-text{
+  font-size: 4.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.desktop-text{
+  font-size: 1.5rem;
+  line-height: 1.5;
+  font-weight: 400;
+}
+.mobile-main-text, 
+.mobile-text{
+ visibility: hidden;
+}
+.main--text h3{
+  margin-top: -2rem;
+  font-size: 2rem;
+  animation: moveInButtom 1s ease-out .75s;
+  animation-fill-mode: backwards;
+}
+
+/* Image Section */
+ .herrands--container{
+  height: 35vh;
+  background-image: linear-gradient(to right bottom, #07382D,#fff);
+}
+.image-container{
+  text-align: left;
 }
 .herrand-img{
-  margin-top: -12rem;
+  margin-top: -8rem;
   height: auto;
-  margin-left: 10rem;
-  width: 100%;
-  max-width: 48rem;
-
+  max-width: 40%;
+  margin-left: 15rem;
 }
+
+/* buttons and forms section*/
 .contact-box{
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  margin-top: -25rem;
-  margin-right: 20rem;
-}
-
-/* buttons */
-.btn:link,
+  margin-top: -18rem;
+  margin-right: 15rem;
+} 
+ .btn:link,
 .btn:visited {
   text-decoration: none;
   padding: 1.4rem 3.5rem;
   display: inline-block;
-  border-radius: 0.6rem;
+  border-radius: 0.4rem;
   transition: all .2s;
   position: relative;
   font-weight: 600;
   font-size: 1.6rem;
  }
-
 .btn:hover {
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2); 
 }
@@ -159,21 +149,25 @@ body {
   color: #fff;
   border: 0.1rem solid #26344f;
 }
-
 .herrands-form-text{
   margin-top: 3rem;
   margin-bottom: 3rem;
   font-weight: 600;
-  font-size: 2.56rem;
+  font-size: 2.45rem;
   color: #26344f;
 }
 .herrands-contact-text{
   color: #26344f;
   display: flex;
   font-weight: 600;
-  font-size: 1.45rem;
+  font-size: 1.4rem;
   
 }
 .herrands-contact-text p{
   margin-left: 22rem;
 }
+
+
+
+
+
