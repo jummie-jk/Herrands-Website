@@ -27,7 +27,7 @@
         } 
         .herrand-img{
           margin-left: 0;
-          margin-top: -22rem;
+          margin-top: -15rem;
         }
         .image-container{
           text-align: center;
@@ -174,15 +174,26 @@
                   }
                   .herrands-contact-text p{
                     font-weight: 600;
-                    margin-left: 8rem;
-                    margin-right: 7.7rem;
+                    margin-left: 4rem;
+                    margin-right: 5rem;
                   }
                   .herrands-form-text{
                     margin-top: 2rem;
                     margin-bottom: 2rem;
                     font-weight: 600;
-                    font-size: 1.9rem;
-                    
+                    font-size: 1.7rem;        
+                  }
+                  .btn--white {
+                    margin-left: 10rem;
+                   }
+                }
+                @media screen and (max-width:360px) {
+                  .herrands-form-text{
+                    font-size: 1.7rem;          
+                  }
+                  .herrands-contact-text p{
+                    margin-left: 4rem;
+                    margin-right: 5rem;
                   }
                 }
 
