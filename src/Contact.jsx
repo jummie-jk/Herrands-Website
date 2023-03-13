@@ -10,8 +10,8 @@ function ContactUs(){
                 </div>
                 <div className="contact-box">
                     <div className="herrands-btn">
-                        <a href="https://whatsform.com/U8B5Ox" className="btn btn--blue btn--animated">On Site </a>
-                        <a href="https://whatsform.com/21FL4_" className="btn btn--white btn--animated">Virtual</a>
+                        <a href="https://send.herrands.com/onsite" className="btn btn--blue btn--animated">On Site </a>
+                        <a href="https://send.herrands.com/virtual" className="btn btn--white btn--animated">Virtual</a>
                     </div>
                     <div className="herrands-form-text">
                         <p>In too much of a hurry to fill out a form? </p>
