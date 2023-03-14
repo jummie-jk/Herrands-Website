@@ -167,8 +167,13 @@
                   .main--text h3{
                     margin-top: -1rem;
                     font-size: 2.5rem;
-      
                   }
+                  .herrand-logo{
+                    height: 10rem;
+                    width: 20rem;
+                    margin-top: 1rem;
+                  }
+
                   .herrand-img{
                     margin-top: -10rem;
                   }
@@ -188,6 +193,21 @@
                    }
                 }
                 @media screen and (max-width:360px) {
+                  html {
+                    font-size: 36%;
+                      }
+                  .herrands-form-text{
+                    font-size: 1.7rem;          
+                  }
+                  .herrands-contact-text p{
+                    margin-left: 4rem;
+                    margin-right: 5rem;
+                  }
+                }
+                @media screen and (max-width:300px) {
+                  html {
+                    font-size: 34%;
+                      }
                   .herrands-form-text{
                     font-size: 1.7rem;          
                   }

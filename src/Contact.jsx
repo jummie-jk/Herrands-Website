@@ -5,7 +5,7 @@ function ContactUs(){
     return(
             <div className="herrands--container">
                 <div className="image-container">
-                      <img src={pic} alt="A delivery man" className="herrand-img" ></img>
+                      <img src={pic} alt="Free up your time" className="herrand-img" ></img>
                      
                 </div>
                 <div className="contact-box">

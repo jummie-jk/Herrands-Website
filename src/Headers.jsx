@@ -20,7 +20,7 @@ function Headers(){
     return(
         <div className="headings">
             <div className="branding">
-                <img src={logo} alt="A delivery man" className="herrand-logo"></img>
+                <img src={logo} alt="Do more with less" className="herrand-logo"></img>
             </div>
             <div className="herrand--greeting">
                 <p>
