@@ -168,6 +168,11 @@
                     margin-top: -1rem;
                     font-size: 2.5rem;
                   }
+                  .mobile-main-text{
+                    margin-top: -3rem;
+                    margin-bottom: 2rem;
+               
+                    }
                   .herrand-logo{
                     height: 10rem;
                     width: 20rem;
