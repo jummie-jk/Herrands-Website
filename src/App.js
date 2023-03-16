@@ -1,16 +1,18 @@
 import React from "react";
-import Headers from "./Headers";
-import Contents from "./Contents";
-import ContactUs from "./Contact";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import OnSite from "./screen/onsite";
+import Virtual from "./screen/virtual";
+import Home from "./screen/home";
+
 function App(){
   return <div>
-    <div className="background--img">
-     <Headers></Headers>
-     <Contents></Contents>
-   </div>
-   <div>
-    <ContactUs></ContactUs>
-   </div>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />}/>
+          <Route path="/virtual" element={<Virtual />}/>
+          <Route path="/onsite" element={<OnSite />}/>
+        </Routes>
+      </BrowserRouter>
   </div> 
 }
 

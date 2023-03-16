@@ -1,6 +1,11 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import pic from "./images/delivery-man1.png";
 function ContactUs(){
+
+    // function btnLinkFunction() {
+    //     document.getElementById("btn-click").href = "https://whatsform.com/U8B5Ox";
+    //   }
 
     return(
             <div className="herrands--container">
@@ -10,8 +15,8 @@ function ContactUs(){
                 </div>
                 <div className="contact-box">
                     <div className="herrands-btn">
-                        <a href="https://send.herrands.com/onsite" className="btn btn--blue btn--animated">On Site </a>
-                        <a href="https://send.herrands.com/virtual" className="btn btn--white btn--animated">Virtual</a>
+                        <Link to="/onsite" className="btn btn--blue btn--animated">On Site </Link>
+                        <Link to="/virtual" className="btn btn--white btn--animated">Virtual</Link>
                     </div>
                     <div className="herrands-form-text">
                         <p>In too much of a hurry to fill out a form? </p>
