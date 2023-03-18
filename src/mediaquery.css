@@ -54,15 +54,15 @@
           visibility: hidden;
           }
         .desktop-main-text{
-          margin-top: -2rem;
-          font-size: 3.5rem;
+          margin-top: -3.55rem;
+          font-size: 2rem;
           font-weight: 600;
           }
         .desktop-text{
           line-height: 1.5;
           font-size: 1.7rem;
-          margin-top: -3rem;
-          font-size: 1.5rem;
+          margin-top: -5rem;
+          font-size: 1.2rem;
           font-weight: 400;
         }
         .main--text h3{
@@ -71,7 +71,7 @@
         }
         .herrand-img{
           margin-left: 0;
-          margin-top: -15rem;
+          margin-top: -20rem;
           max-width: 20%;
         }
         .image-container{
