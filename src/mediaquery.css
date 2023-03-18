@@ -45,10 +45,64 @@
           margin-right: 10.85rem;
         }
       }
-      @media screen and (max-width:768px) {
-        body {
-          overflow: visible;
+      @media only screen and (max-device-width : 900px) and (orientation: landscape) {
+        html {
+          font-size: 38%;
+        } 
+        .mobile-main-text, 
+          .mobile-text{
+          visibility: hidden;
+          }
+        .desktop-main-text{
+          margin-top: -2rem;
+          font-size: 3.5rem;
+          font-weight: 600;
+          }
+        .desktop-text{
+          line-height: 1.5;
+          font-size: 1.7rem;
+          margin-top: -3rem;
+          font-size: 1.5rem;
+          font-weight: 400;
         }
+        .main--text h3{
+          margin-top: -4rem;
+          font-size: 2rem;
+        }
+        .herrand-img{
+          margin-left: 0;
+          margin-top: -15rem;
+          max-width: 20%;
+        }
+        .image-container{
+          text-align: center;
+        }
+        .contact-box{
+          display: flex;
+          flex-wrap: wrap;
+          flex-direction: column;
+          align-items: center;
+          margin-top: -1rem;
+          margin-right: 0;
+        }
+        .herrands-contact-text p{
+          margin-left: 11rem;
+          margin-right: 10.85rem;
+        }
+        .herrands-contact-text p{
+          font-weight: 600;
+          margin-left: 4rem;
+          margin-right: 3.5rem;
+        }
+        .herrands-form-text{
+          margin-top: 0.5rem;
+          margin-bottom: 0.5rem;
+          font-weight: 600;
+          font-size: 1.7rem;        
+        }
+        .btn--white {
+          margin-left: 10rem;
+         }
       }
       @media screen and (max-width:610px) {
         html {
