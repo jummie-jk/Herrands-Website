@@ -160,7 +160,8 @@
 
           }
         }
-        @media only screen and (max-device-width : 610px) and (orientation: landscape) {
+
+        @media screen and (max-device-width : 610px) and (orientation: landscape) {
           html {
             font-size: 38%;
           } 
@@ -221,7 +222,7 @@
         }
 
 
-     @media screen and (max-width:530px) {
+     @media screen and (min-screen-width:530px) {
             html {
                 font-size: 42%;
                 }

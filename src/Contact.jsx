@@ -3,9 +3,6 @@ import { Link } from "react-router-dom";
 import pic from "./images/delivery-man1.png";
 function ContactUs(){
 
-    // function btnLinkFunction() {
-    //     document.getElementById("btn-click").href = "https://whatsform.com/U8B5Ox";
-    //   }
 
     return(
             <div className="herrands--container">
